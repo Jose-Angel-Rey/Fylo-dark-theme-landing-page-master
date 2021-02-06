@@ -115,15 +115,6 @@ body {
   text-decoration: none;
   color: var(--main-txt-color);
   transition: all 0.5s;
-  animation: scale 1s 1s alternate infinite;
-}
-@keyframes scale {
-  from {
-    transform: scale(1);
-  }
-  to {
-    transform: scale(1.05);
-  }
 }
 
 .main-header-content__btn:hover,
