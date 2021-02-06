@@ -331,6 +331,9 @@ body {
 .call-to-action__input-email::placeholder {
   opacity: 0.5;
 }
+.call-to-action__input-email:invalid{
+  color: hsl(0, 100%, 63%);
+}
 .call-to-action__input-email:focus {
   outline: none;
   border: 2px solid hsl(198, 60%, 50%);
