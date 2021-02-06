@@ -453,6 +453,10 @@ body {
 }
 .attribution a {
   color: hsl(176, 68%, 64%);
+  transition: all .5s;
+}
+.attribution a:active{
+  color: #536DFF;
 }
 @media screen and (min-width: 768px) {
   .main-header {
