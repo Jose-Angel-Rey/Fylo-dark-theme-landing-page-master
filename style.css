@@ -427,7 +427,9 @@ body {
   justify-content: space-between;
   margin-bottom: 50px;
 }
-
+.social-media-links a{
+  text-decoration: none;
+}
 .social-media-links .fab {
   color: var(--main-txt-color);
   border: 1px solid var(--main-txt-color);
@@ -446,6 +448,9 @@ body {
   color: hsl(176, 68%, 64%);
   border-color: hsl(176, 68%, 64%);
   transform: scale(1.02);
+}
+.social-media-links .fab:active{
+  color: #02fce7;
 }
 .attribution {
   width: 100%;
