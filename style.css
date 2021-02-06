@@ -455,6 +455,9 @@ body {
   color: hsl(176, 68%, 64%);
   transition: all .5s;
 }
+.attribution a:hover{
+  color: #6DDFEE;
+}
 .attribution a:active{
   color: #536DFF;
 }
